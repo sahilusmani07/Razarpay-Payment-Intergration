@@ -1,0 +1,24 @@
+ 
+ .slider-container {
+  width: 100%;
+  padding: 20px 0;
+  background-color: #f8f8f8;
+}
+
+
+.slider-container {
+  margin-top: 4%;
+  padding-top: 0;
+}
+
+
+.image-slide {
+  text-align: center;
+}
+
+.image-slide img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}

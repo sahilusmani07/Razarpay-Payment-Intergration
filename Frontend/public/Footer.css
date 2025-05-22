@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+*{
+    margin: 0;
+
+}
+.footer {
+  background: linear-gradient(135deg, #000000 50%, #333333 50%);
+  color: white;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+  background-size:contain;
+  margin-top: 4rem;
+}
+
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 220px;
+  margin: 10px;
+}
+
+.footer-column h4 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 8px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.newsletter-input {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.newsletter-input input {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  outline: none;
+}
+
+.newsletter-input button {
+  background-color: #ffc107;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.contact-info p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  margin: 8px 0;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+  font-size: 20px;
+  margin: 15px 0;
+}
+
+.secure-payment p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+}
+
+.payment-icons img {
+  height: 25px;
+  margin-right: 10px;
+  margin-top: 8px;
+}
+
+/*social-icons */
+.social-icons {
+  display: flex;
+  gap: 15px;
+  font-size: 24px;
+  margin: 15px 0;
+}
+
+.social-icons .icon {
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.social-icons .icon:hover {
+  transform: scale(1.2);
+}
+
+.social-icons .instagram {
+  color: #E4405F;
+}
+
+.social-icons .linkedin {
+  color: #0077B5;
+}
+
+.social-icons .twitter {
+  color: #1DA1F2;
+}
+
+.social-icons .youtube {
+  color: #FF0000;
+}
+
+.social-icons .facebook {
+  color: #1877F2;
+}
+
+/*Shield icon color */
+.shield-icon {
+  color: #28a745; 
+  font-size: 17px; 
+ }
+
+
+ /* Font Style */
+
+ .footer {
+  font-family: 'Roboto', sans-serif;
+  color: #ccc; /* light gray similar to image */
+}
+
+.footer-column ul li,
+.footer-column a {
+  font-size: 14px;
+  font-weight: 400;
+  color: #ccc;
+  margin-bottom: 8px;
+  transition: color 0.2s ease;
+}
+
+.footer-column ul li:hover,
+.footer-column a:hover {
+  color: #ffffff; /* on hover it turns white */
+  cursor: pointer;
+}
+
+.footer-column h4 {
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 12px;
+}
