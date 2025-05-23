@@ -17,7 +17,7 @@ let instance;
       key_secret: process.env.RAZORPAY_API_SECRET,
     });
 
-    // Attach to app if needed (optional)
+    // Attach to app if needed  
     app.locals.razorpay = instance;
 
     app.listen(process.env.PORT, () => {

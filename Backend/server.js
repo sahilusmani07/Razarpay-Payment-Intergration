@@ -2,7 +2,7 @@ import dotenv from 'dotenv';
 dotenv.config({ path: 'Backend/config/config.env' });
 
 import Razorpay from 'razorpay';
-import app from './app.js'; // Import app from app.js
+import app from './app.js'; 
 
 // Initialize Razorpay instance
 export const instance = new Razorpay({

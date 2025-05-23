@@ -77,7 +77,7 @@ const Home = () => {
   return (
     <>
     <Navbar/>
-      <SliderComponent/>  {/* Here import slide component */}
+      <SliderComponent/>  {/*   import slide component */}
 
       <Navbar onSearch={setSearchTerm} />
       <div style={{

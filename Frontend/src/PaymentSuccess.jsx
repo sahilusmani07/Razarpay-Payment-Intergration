@@ -1,5 +1,5 @@
 import React from 'react';
-import '../public/PaymentSuccess.css'; // Import the CSS file
+import '../public/PaymentSuccess.css';  
 import { useSearchParams } from 'react-router-dom';
 const PaymentSuccess = () => {
       const searchQuery= useSearchParams()[0]
